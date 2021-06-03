@@ -18,9 +18,9 @@ public class Rectangle implements Shape{
 
     @Override
     public void display() {
-        System.out.println("The lenght of out rectangle is: " + this.length);
-        System.out.println("The width of out rectangle is: " + this.width);
-        System.out.println("The area of out rectangle is: " + this.area);
+        System.out.println("The length of our rectangle is: " + this.length);
+        System.out.println("The width of our rectangle is: " + this.width);
+        System.out.println("The area of our rectangle is: " + this.area);
         System.out.println();
     }
 }
