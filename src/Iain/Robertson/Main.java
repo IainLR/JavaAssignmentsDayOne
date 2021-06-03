@@ -1,5 +1,7 @@
 package Iain.Robertson;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,6 +14,9 @@ public class Main {
 
         Assignment2 game = new Assignment2();
         game.letsPlayAGame();
+//        DayTwoAssignment1 day2AssignOne = new DayTwoAssignment1();
+//        day2AssignOne.commandLineAddition();
+        System.out.println(Arrays.toString(args));
     }
 
     public static void patternOne(int number) {

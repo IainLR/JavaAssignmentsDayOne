@@ -12,14 +12,14 @@ public class Assignment2 {
         int guessCount = 5;
         boolean correct = false;
         int answer = random.nextInt(100 - 1 + 1) + 1;
-        String prompt = "Care to venture a guess?";
+        String prompt = "Care to venture a guess?\n";
         System.out.println("I am thinking of a number between 1 and 100");
 
         while (guessCount > 0) {
 
 
             if (guessCount < 5) {
-                prompt = "Sorry, that answer is incorrect. " + guessCount + " guesses remain";
+                prompt = "Sorry, that answer is incorrect. " + guessCount + " guesses remain\n";
                 System.out.println();
             }
 
