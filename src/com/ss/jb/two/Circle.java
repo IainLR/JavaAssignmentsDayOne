@@ -8,14 +8,14 @@ public class Circle implements Shape{
 
     public Circle(int radius) {
         this.radius = radius;
-        this.area = calculateArea(this.radius);
+        this.area = calculateArea();
         this.circumference = Math.PI * (2 * this.radius);
     }
 
 
     @Override
-    public double calculateArea(int radius) {
-        return Math.PI * (radius * radius);
+    public double calculateArea() {
+        return Math.PI * (this.radius * this.radius);
     }
 
     @Override
@@ -23,5 +23,6 @@ public class Circle implements Shape{
         System.out.println("radius of Circle= " + this.radius);
         System.out.println("area of Circle = " + this.area);
         System.out.println("Circumference of Circle = " + this.circumference);
+        System.out.println();
     }
 }

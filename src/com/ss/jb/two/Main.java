@@ -19,6 +19,12 @@ public class Main {
         // Assignment 3:
         Circle myCircle = new Circle(4);
         myCircle.display();
+
+        Triangle myTriangle = new Triangle(4, 7);
+        myTriangle.display();
+
+        Rectangle myRectangle = new Rectangle(6,6);
+        myRectangle.display();
     }
 
     public static void dayTwoAssignmentOne(String[] args) {
