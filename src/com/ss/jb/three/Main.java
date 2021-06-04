@@ -52,7 +52,7 @@ public class Main {
                 if (a == args[0].charAt(0)) {
                     count++;
                 }
-                System.out.println(a);
+//                System.out.println(a);
             }
 
             System.out.println(count);
