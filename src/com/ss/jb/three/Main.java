@@ -7,7 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Welcome to day three");
-        assignmentOneList("assignmentOneList");
+//        assignmentOneList("assignmentOneList");
+
+        new AssignmentTwoAppend().listFolder(new File("src"));
 
 //        assignmentTwoAppend("src/com/ss/jb/three/text.txt");
         assignmentTwoAppend("test.txt");
@@ -65,7 +67,6 @@ public class Main {
                 if (a == args[0].charAt(0)) {
                     count++;
                 }
-//                System.out.println(i);
                 System.out.println(a);
             }
 
@@ -76,6 +77,7 @@ public class Main {
 
 
     }
+
 
 
 }
