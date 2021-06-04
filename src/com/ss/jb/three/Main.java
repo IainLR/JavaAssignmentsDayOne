@@ -7,34 +7,19 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Welcome to day three");
-//        assignmentOneList("assignmentOneList");
 
         new AssignmentTwoAppend().listFolder(new File("src"));
 
-//        assignmentTwoAppend("src/com/ss/jb/three/text.txt");
+
         assignmentTwoAppend("test.txt");
-//        assignmentTwoAppend("/Users/iainrobertson/myCode/Java/JavaAssignment1/src/com/ss/jb/three/test.txt");
+
 
         assignmentThreeCharCount(args);
 
 
     }
 
-    public static void assignmentOneList(String filePath) {
-//        File file = new File("C:\\Users\\iainrobertson\\myCode\\test");
-        File file = new File("/Users/iainrobertson/myCode/Java/JavaAssignment1/src/Iain/Robertson");
 
-        String[] fileList = file.list();
-        System.out.println(Arrays.toString(fileList));
-        try {
-            for (String str : fileList) {
-                System.out.println(str);
-            }
-        } catch (Exception ex) {
-            System.out.println("exception");
-        }
-
-    }
 
     public static void assignmentTwoAppend(String filePath) {
 
