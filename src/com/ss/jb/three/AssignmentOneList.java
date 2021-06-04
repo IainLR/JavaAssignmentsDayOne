@@ -1,9 +1,8 @@
 package com.ss.jb.three;
 
 import java.io.File;
-import java.io.FileFilter;
 
-public class AssignmentTwoAppend {
+public class AssignmentOneList {
 
     void listFolder(File dir) {
         File[] subDirs = dir.listFiles(File::isDirectory);
@@ -22,6 +21,4 @@ public class AssignmentTwoAppend {
             System.out.println(file.getName());
         }
     }
-
-
 }

@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to day three");
 
-        new AssignmentTwoAppend().listFolder(new File("src"));
+        new AssignmentOneList().listFolder(new File("src"));
 
 
         assignmentTwoAppend("test.txt");
